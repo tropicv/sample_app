@@ -28,7 +28,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-group :test do
+group :development, :test do
   gem 'capybara', '~> 3.4', '>= 3.4.2'
 	gem 'selenium-webdriver', '~> 3.13', '>= 3.13.1'
   gem 'chromedriver-helper'
